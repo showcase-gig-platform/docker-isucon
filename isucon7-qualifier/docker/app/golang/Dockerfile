@@ -1,4 +1,4 @@
-FROM golang:1.9
+FROM golang:1.15.3-alpine
 
 ARG GIT_URL=https://github.com/showcase-gig-platform/isucon-study-qualify.git
 
