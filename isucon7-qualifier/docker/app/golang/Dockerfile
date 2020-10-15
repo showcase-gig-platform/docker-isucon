@@ -1,6 +1,6 @@
 FROM golang:1.9
 
-ARG GIT_URL=https://github.com/isucon/isucon7-qualify.git
+ARG GIT_URL=https://github.com/showcase-gig-platform/isucon-study-qualify.git
 
 RUN git clone $GIT_URL /home/isucon/isubata
 WORKDIR /home/isucon/isubata/webapp/go
